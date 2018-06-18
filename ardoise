@@ -1,0 +1,39 @@
+<html>
+<meta charset="utf-8">
+<head>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="class/pencil.class.js"></script>
+  <script src="class/program.class.js"></script>
+   <script src="class/slate.class.js"></script>
+
+  <script src="main.js"></script>
+
+</head>
+
+<body>
+
+<button class="pencil" data-size="1">Fin</button>
+<button class="pencil" data-size="2">Moyen</button>
+<button class="pencil" data-size="3">Epais</button>
+<input type="reset" id="clear" value="Réinitialiser">
+<input type="button" id="save" value="Sauvergarder mon image">
+<canvas id="canvas" width="1200" height="800" style= "border :1px solid" class="playable-canvas"></canvas>
+<ul id="couleurs">
+			<button data-couleur="#000000" class="actif">Noir</button>
+			<button data-couleur="#ffffff" class="color">Blanc</button>
+			<button data-couleur="#ff0000" class="color">Rouge</button>
+			<button data-couleur="brown" class="color">Marron</button>
+			<button data-couleur="orange" class="color">Orange</button>
+			<button data-couleur="yellow" class="color">Jaune</button>
+			<button data-couleur="green" class="color">Vert</button>
+			<button data-couleur="cyan" class="color">Cyan</button>
+			<button data-couleur="blue" class="color">Bleu</button>
+			<button data-couleur="indigo" class="color">Indigo</button>
+			<button data-couleur="Violet" class="color">Violet</button>
+			<button data-couleur="pink" class="color">Rose</button>
+		</ul>
+
+
+</body>
+
+</html>
